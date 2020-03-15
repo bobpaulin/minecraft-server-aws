@@ -72,3 +72,8 @@ VERSION	1.12.2
 The add the mods to your S3 bucket at /data/mods
 
 
+## Connecting
+
+Use the public ip from the ECS Service/task to connect to the server from the client.  And enjoy!
+
+
