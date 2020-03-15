@@ -53,7 +53,11 @@ ex MINECRAFT_S3_BUCKET=minecraft-data  and data will backup to s3://minecraft-da
 
 All the Env variables at https://hub.docker.com/r/itzg/minecraft-server/  are available.  (make sure to set EULA=TRUE)
 
-Also for mods (like pixelmon)
+## Mods
+
+The add the mods to your S3 bucket at /data/mods
+
+Env vars for mods (like pixelmon)
 
 EULA	TRUE
 
@@ -66,10 +70,6 @@ MINECRAFT_S3_BUCKET	minecraft-forge-bob
 TYPE	FORGE
 
 VERSION	1.12.2
-
-## Mods
-
-The add the mods to your S3 bucket at /data/mods
 
 
 ## Connecting
